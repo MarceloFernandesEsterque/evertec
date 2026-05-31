@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoTuristico.API.Server", "PontoTuristico.API\PontoTuristico.API.Server\PontoTuristico.API.Server.csproj", "{330501C6-BEF5-4352-9C95-41CEABC2EE43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C7B2CF6-4375-41A5-B771-07399AC99EC6} = {5C7B2CF6-4375-41A5-B771-07399AC99EC6}
+		{AF82B35A-4269-4676-A33D-84C4E2268372} = {AF82B35A-4269-4676-A33D-84C4E2268372}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoTuristico.Domain", "PontoTuristico.Domain\PontoTuristico.Domain.csproj", "{5C7B2CF6-4375-41A5-B771-07399AC99EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoTuristico.Data", "PontoTuristico.Data\PontoTuristico.Data.csproj", "{AF82B35A-4269-4676-A33D-84C4E2268372}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C7B2CF6-4375-41A5-B771-07399AC99EC6} = {5C7B2CF6-4375-41A5-B771-07399AC99EC6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{330501C6-BEF5-4352-9C95-41CEABC2EE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330501C6-BEF5-4352-9C95-41CEABC2EE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330501C6-BEF5-4352-9C95-41CEABC2EE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330501C6-BEF5-4352-9C95-41CEABC2EE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7B2CF6-4375-41A5-B771-07399AC99EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7B2CF6-4375-41A5-B771-07399AC99EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7B2CF6-4375-41A5-B771-07399AC99EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7B2CF6-4375-41A5-B771-07399AC99EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF82B35A-4269-4676-A33D-84C4E2268372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF82B35A-4269-4676-A33D-84C4E2268372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF82B35A-4269-4676-A33D-84C4E2268372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF82B35A-4269-4676-A33D-84C4E2268372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FDC6CA9-359D-4087-B326-12CA7290DDC7}
+	EndGlobalSection
+EndGlobal

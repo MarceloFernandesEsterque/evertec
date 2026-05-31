@@ -1,0 +1,11 @@
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\bin\Debug\net8.0\PontoTuristico.Domain.deps.json
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\bin\Debug\net8.0\PontoTuristico.Domain.dll
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\bin\Debug\net8.0\PontoTuristico.Domain.pdb
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\obj\Debug\net8.0\PontoTuristico.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\obj\Debug\net8.0\PontoTuristico.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\obj\Debug\net8.0\PontoTuristico.Domain.AssemblyInfo.cs
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\obj\Debug\net8.0\PontoTuristico.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\obj\Debug\net8.0\PontoTuristico.Domain.dll
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\obj\Debug\net8.0\refint\PontoTuristico.Domain.dll
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\obj\Debug\net8.0\PontoTuristico.Domain.pdb
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Domain\obj\Debug\net8.0\ref\PontoTuristico.Domain.dll

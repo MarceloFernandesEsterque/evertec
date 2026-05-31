@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|c:\\users\\user\\documents\\evertec\\project\\backend\\pontoturistico\\pontoturistico.api\\pontoturistico.api.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|solutionrelative:pontoturistico.api\\pontoturistico.api.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|c:\\users\\user\\documents\\evertec\\project\\backend\\pontoturistico\\pontoturistico.api\\pontoturistico.api.server\\pontoturistico.api.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|solutionrelative:pontoturistico.api\\pontoturistico.api.server\\pontoturistico.api.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|c:\\users\\user\\documents\\evertec\\project\\backend\\pontoturistico\\pontoturistico.api\\pontoturistico.api.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|solutionrelative:pontoturistico.api\\pontoturistico.api.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|c:\\users\\user\\documents\\evertec\\project\\backend\\pontoturistico\\pontoturistico.api\\pontoturistico.api.server\\controllers\\pontosturisticoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|solutionrelative:pontoturistico.api\\pontoturistico.api.server\\controllers\\pontosturisticoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|c:\\users\\user\\documents\\evertec\\project\\backend\\pontoturistico\\pontoturistico.api\\pontoturistico.api.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{330501C6-BEF5-4352-9C95-41CEABC2EE43}|PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj|solutionrelative:pontoturistico.api\\pontoturistico.api.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "PontoTuristico.API\\PontoTuristico.API.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\appsettings.json",
+              "RelativeToolTip": "PontoTuristico.API\\PontoTuristico.API.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T15:42:58.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PontoTuristico.API\\PontoTuristico.API.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PontoTuristico.API\\PontoTuristico.API.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T15:18:28.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PontosTuristicosController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\Controllers\\PontosTuristicosController.cs",
+              "RelativeDocumentMoniker": "PontoTuristico.API\\PontoTuristico.API.Server\\Controllers\\PontosTuristicosController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\Controllers\\PontosTuristicosController.cs",
+              "RelativeToolTip": "PontoTuristico.API\\PontoTuristico.API.Server\\Controllers\\PontosTuristicosController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAIwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:11:25.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PontoTuristico.API.Server",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj",
+              "RelativeDocumentMoniker": "PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj",
+              "RelativeToolTip": "PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-30T13:44:19.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\Program.cs",
+              "RelativeDocumentMoniker": "PontoTuristico.API\\PontoTuristico.API.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\Program.cs",
+              "RelativeToolTip": "PontoTuristico.API\\PontoTuristico.API.Server\\Program.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwEcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T13:31:32.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

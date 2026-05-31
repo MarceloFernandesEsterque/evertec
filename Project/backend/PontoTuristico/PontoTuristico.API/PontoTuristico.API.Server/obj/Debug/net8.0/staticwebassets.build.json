@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5MTgcsnVJ5Xl8btFYL+NCig/bVR5tkEhgyTap1A6E3A=",
+  "Source": "PontoTuristico.API.Server",
+  "BasePath": "_content/PontoTuristico.API.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

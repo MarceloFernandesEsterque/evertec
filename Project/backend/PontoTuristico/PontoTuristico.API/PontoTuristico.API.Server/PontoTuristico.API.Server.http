@@ -1,0 +1,6 @@
+@PontoTuristico.API.Server_HostAddress = http://localhost:5104
+
+GET {{PontoTuristico.API.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

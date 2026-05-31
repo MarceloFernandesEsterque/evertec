@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\bin\Debug\net8.0\PontoTuristico.Data.deps.json
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\bin\Debug\net8.0\PontoTuristico.Data.dll
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\bin\Debug\net8.0\PontoTuristico.Data.pdb
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\bin\Debug\net8.0\PontoTuristico.Domain.dll
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\bin\Debug\net8.0\PontoTuristico.Domain.pdb
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\PontoTuristico.Data.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\PontoTuristico.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\PontoTuristico.Data.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\PontoTuristico.Data.AssemblyInfo.cs
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\PontoTuristico.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\PontoTur.8BA7A84B.Up2Date
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\PontoTuristico.Data.dll
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\refint\PontoTuristico.Data.dll
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\PontoTuristico.Data.pdb
+C:\Users\user\Documents\Evertec\Project\backend\PontoTuristico\PontoTuristico.Data\obj\Debug\net8.0\ref\PontoTuristico.Data.dll

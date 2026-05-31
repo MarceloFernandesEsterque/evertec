@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "",
+"RedirectUrl": "",
+"LaunchCommand": "",
+"WorkingDirectory": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\..\\pontoturistico.api.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
