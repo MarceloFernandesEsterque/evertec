@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PontoTuristico.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb3a358d0317fbf3fd65399aa371d44652ef3610")]
 [assembly: System.Reflection.AssemblyProductAttribute("PontoTuristico.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PontoTuristico.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

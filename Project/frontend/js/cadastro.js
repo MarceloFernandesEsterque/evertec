@@ -19,14 +19,14 @@ async function carregarEstadosIBGE() {
     const selectEstado = document.getElementById("selectEstado");
     
     try {
-        const response = await fetch("https://ibge.gov.br");
+        const response = await fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados");
         if (!response.ok) throw new Error("Erro ao buscar estados.");
 
         const estados = await response.json();
 
         estados.forEach(est => {
             const option = document.createElement("option");
-            option.value = est.sigla; // Envia a sigla de 2 caracteres (Ex: SP) cumprindo a regra do banco
+            option.value = est.id; // Envia a sigla de 2 caracteres (Ex: SP) cumprindo a regra do banco
             option.textContent = est.nome; // Exibe o nome completo para o usuário (Ex: São Paulo)
             selectEstado.appendChild(option);
         });
@@ -50,7 +50,7 @@ async function carregarCidadesIBGE(uf) {
     }
 
     try {
-        const response = await fetch(`https://ibge.gov.br{uf}/municipios?orderBy=nome`);
+        const response = await fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${uf}/municipios`);
         if (!response.ok) throw new Error("Erro ao buscar cidades.");
 
         const cidades = await response.json();

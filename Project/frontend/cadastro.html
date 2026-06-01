@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos Turísticos - Cadastrar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="menu-navegacao">
+        <a href="index.html">Consultar</a>
+        <a href="cadastro.html" class="ativo">Cadastrar</a>
+    </nav>
+
+    <main class="container">
+        <h2>Cadastrar Ponto Turístico</h2>
+        
+        <form id="formCadastro" class="formulario">
+            <div class="campo">
+                <label for="txtNome">Nome do Ponto Turístico *</label>
+                <input type="text" id="txtNome" required placeholder="Ex: Cristo Redentor">
+            </div>
+
+            <div class="campo">
+                <label for="txtDescricao">Descrição (Máx 100 caracteres) *</label>
+                <textarea id="txtDescricao" maxlength="100" required placeholder="Breve descrição do local..."></textarea>
+            </div>
+
+            <div class="campo">
+                <label for="txtLocalizacao">Localização / Referência *</label>
+                <input type="text" id="txtLocalizacao" required placeholder="Ex: Morro do Corcovado">
+            </div>
+
+            <div class="linha-dupla">
+                <div class="campo">
+                    <label for="selectEstado">Estado *</label>
+                    <select id="selectEstado" required>
+                        <option value="">Selecione um Estado</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="selectCidade">Cidade *</label>
+                    <select id="selectCidade" required>
+                        <option value="">Selecione um Estado primeiro</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" id="btnCadastrar" class="btn-salvar">Salvar Ponto Turístico</button>
+        </form>
+    </main>
+
+    <script src="js/cadastro.js"></script>
+</body>
+</html>

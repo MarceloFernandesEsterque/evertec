@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\PontoTuristico.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\PontoTuristico.Domain.csproj",
       "projectName": "PontoTuristico.Domain",
-      "projectPath": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\PontoTuristico.Domain.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\PontoTuristico.Domain.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

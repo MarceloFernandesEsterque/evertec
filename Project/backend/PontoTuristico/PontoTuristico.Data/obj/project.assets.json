@@ -1054,11 +1054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Data\\PontoTuristico.Data.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Data\\PontoTuristico.Data.csproj",
       "projectName": "PontoTuristico.Data",
-      "projectPath": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Data\\PontoTuristico.Data.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Data\\PontoTuristico.Data.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Data\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1075,8 +1075,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\PontoTuristico.Domain.csproj": {
-              "projectPath": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\PontoTuristico.Domain.csproj"
+            "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\PontoTuristico.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Domain\\PontoTuristico.Domain.csproj"
             }
           }
         }

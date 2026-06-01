@@ -3,7 +3,7 @@
 "ServerUrl": "",
 "RedirectUrl": "",
 "LaunchCommand": "",
-"WorkingDirectory": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\..\\pontoturistico.api.client",
+"WorkingDirectory": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\..\\pontoturistico.api.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

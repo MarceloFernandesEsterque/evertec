@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jw7tVfcviv+hZhFfloDSU6b2jvPHWX7IRU6eo+vdGqgeg9JJS0QvMaR9OvS60Rqr3zftLpXUzHmmCXo7yecyug==",
+  "dgSpecHash": "1dYZnuuoXwf9Br92A35rKqe7affKP5/o15oY3T4gtvBBOdMsynEtI5y8sLnFKjxTunMa4Az51h30CTIRB8/XZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Data\\PontoTuristico.Data.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.Data\\PontoTuristico.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.11\\microsoft.data.sqlite.core.8.0.11.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.11\\microsoft.entityframeworkcore.8.0.11.nupkg.sha512",

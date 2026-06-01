@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JkgGVpkUe8KSYS2KI/3ub6VW0xTY5aDXgNyZf9BTsE03fQ5i5yggB9BV/1psCGR7TsaTxIYAoo+vZY6WuQVYhQ==",
+  "dgSpecHash": "nG0NnZYDnMxKW6pmOoytD2BA5mjoiVc17U0DsfCiVt5AlNget+94KvLkf9uuVfNGqpsTQ8ODChAbudEZy8lYPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\Evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\Evertec\\evertec\\Project\\backend\\PontoTuristico\\PontoTuristico.API\\PontoTuristico.API.Server\\PontoTuristico.API.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.27\\microsoft.aspnetcore.spaproxy.8.0.27.nupkg.sha512",
