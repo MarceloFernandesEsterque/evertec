@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos Turísticos - Início</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Menu exigido para alternar entre listagem e formulário -->
+    <nav class="menu-navegacao">
+        <a href="index.html" class="ativo">Consultar</a>
+        <a href="cadastro.html">Cadastrar</a>
+    </nav>
+
+    <main class="container">
+        <header class="cabecalho">
+            <h2>Pontos Turísticos Cadastrados</h2>
+            <p>Gerencie e visualize as atrações registradas no sistema.</p>
+        </header>
+        
+        <!-- Barra de Busca Unificada -->
+        <div class="busca-container">
+            <input type="text" id="txtBusca" placeholder="Pesquisar por nome, descrição ou localização...">
+            <button id="btnBuscar" class="btn-primario">🔍 Buscar</button>
+        </div>
+
+        <!-- Lista Dinâmica de Cards (Gerada via JavaScript) -->
+        <div id="listaPontos" class="lista-pontos">
+            <p class="status-mensagem">Carregando pontos turísticos...</p>
+        </div>
+
+        <!-- Controles de Paginação -->
+        <div id="botoesPaginacao" class="paginacao"></div>
+    </main>
+
+    <!-- Script de Lógica Interna -->
+    <script src="js/listagem.js"></script>
+</body>
+</html>

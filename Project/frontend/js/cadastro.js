@@ -1,84 +1,116 @@
-const API_URL = "https://localhost:7001/api/pontosturisticos"; // Altere para a porta da sua API
+// Configuração da URL da API ativa no Visual Studio (Porta 7271)
+const API_URL = "https://localhost:7271/api/pontosturisticos";
 
+// Inicialização dos eventos assim que a página carrega
 document.addEventListener("DOMContentLoaded", () => {
-    carregarEstados();
-    document.getElementById("btnCadastrar").addEventListener("click", cadastrarPonto);
-    document.getElementById("selectEstado").addEventListener("change", (e) => carregarCidades(e.target.value));
+    carregarEstadosIBGE();
+
+    // Captura o evento de envio (submit) do formulário
+    document.getElementById("formCadastro").addEventListener("submit", cadastrarPontoTuristico);
+
+    // Evento para carregar cidades assim que o usuário selecionar um estado
+    document.getElementById("selectEstado").addEventListener("change", (e) => {
+        carregarCidadesIBGE(e.target.value);
+    });
 });
 
-// Busca os estados brasileiros da API pública do IBGE
-async object carregarEstados() {
+// 🏛️ 1. Busca os estados brasileiros na API pública do IBGE (Ordenado por Nome)
+async function carregarEstadosIBGE() {
+    const selectEstado = document.getElementById("selectEstado");
+    
     try {
         const response = await fetch("https://ibge.gov.br");
+        if (!response.ok) throw new Error("Erro ao buscar estados.");
+
         const estados = await response.json();
-        const select = document.getElementById("selectEstado");
 
         estados.forEach(est => {
-            let option = document.createElement("option");
-            option.value = est.sigla;
-            option.textContent = est.nome;
-            select.appendChild(option);
+            const option = document.createElement("option");
+            option.value = est.sigla; // Envia a sigla de 2 caracteres (Ex: SP) cumprindo a regra do banco
+            option.textContent = est.nome; // Exibe o nome completo para o usuário (Ex: São Paulo)
+            selectEstado.appendChild(option);
         });
     } catch (error) {
-        console.error("Erro ao buscar estados do IBGE:", error);
+        console.error("Erro na integração com o IBGE:", error);
+        selectEstado.innerHTML = '<option value="">Erro ao carregar estados</option>';
     }
 }
 
-// Carrega as cidades dinamicamente com base na UF selecionada
-async function carregarCidades(uf) {
+// 🏙️ 2. Carrega as cidades dinamicamente com base na UF selecionada
+async function carregarCidadesIBGE(uf) {
     const selectCidade = document.getElementById("selectCidade");
-    selectCidade.innerHTML = '<option value="">Carregando...</option>';
+    
+    // Limpa o select de cidades e coloca estado de carregamento
+    selectCidade.innerHTML = '<option value="">Carregando cidades...</option>';
+    selectCidade.disabled = true;
 
-    if (!uf) return selectCidade.innerHTML = '<option value="">Selecione um Estado</option>';
+    if (!uf) {
+        selectCidade.innerHTML = '<option value="">Selecione um Estado primeiro</option>';
+        return;
+    }
 
     try {
-        const response = await fetch(`https://ibge.gov.br{uf}/municipios`);
+        const response = await fetch(`https://ibge.gov.br{uf}/municipios?orderBy=nome`);
+        if (!response.ok) throw new Error("Erro ao buscar cidades.");
+
         const cidades = await response.json();
         selectCidade.innerHTML = '<option value="">Selecione uma Cidade</option>';
+        selectCidade.disabled = false;
 
         cidades.forEach(cid => {
-            let option = document.createElement("option");
+            const option = document.createElement("option");
             option.value = cid.nome;
             option.textContent = cid.nome;
             selectCidade.appendChild(option);
         });
     } catch (error) {
-        console.error("Erro ao carregar cidades:", error);
+        console.error("Erro ao buscar cidades no IBGE:", error);
+        selectCidade.innerHTML = '<option value="">Erro ao carregar cidades</option>';
     }
 }
 
-// Envia os dados estruturados do formulário via POST para a API C#
-async function cadastrarPonto(e) {
+// 💾 3. Envia os dados estruturados do formulário via POST para a API em C#
+async function cadastrarPontoTuristico(e) {
+    // Impede o recarregamento padrão da página HTML
     e.preventDefault();
 
-    const dados = {
+    const txtDescricao = document.getElementById("txtDescricao").value;
+
+    // Validação de segurança no Front-end (Regra estrita do teste)
+    if (txtDescricao.trim().length > 100) {
+        alert("Erro: A descrição não pode ultrapassar o limite de 100 caracteres.");
+        return;
+    }
+
+    // Monta o objeto exatamente no padrão esperado pela PontoTuristicoEntity do C#
+    const dadosFormulario = {
         nome: document.getElementById("txtNome").value,
-        descricao: document.getElementById("txtDescricao").value,
+        descricao: txtDescricao,
         localizacao: document.getElementById("txtLocalizacao").value,
         estado: document.getElementById("selectEstado").value,
         cidade: document.getElementById("selectCidade").value
     };
 
-    if (dados.descricao.length > 100) {
-        alert("Erro: A descrição deve ter no máximo 100 caracteres.");
-        return;
-    }
-
     try {
-        const res = await fetch(API_URL, {
+        const response = await fetch(API_URL, {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(dados)
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(dadosFormulario)
         });
 
-        if (res.ok) {
-            alert("Ponto turístico salvo com sucesso!");
+        if (response.ok) {
+            alert("Ponto turístico cadastrado com sucesso! 🎉");
+            // Redireciona o usuário de volta para a tela inicial de listagem
             window.location.href = "index.html";
         } else {
-            const erroText = await res.text();
-            alert("Falha ao salvar: " + erroText);
+            // Captura o erro amigável retornado pelas validações do nosso Controller
+            const erroApi = await response.json();
+            alert(`Falha no cadastro: ${erroApi.mensagem || "Verifique os dados enviados."}`);
         }
     } catch (error) {
-        alert("Erro de comunicação com o servidor.");
+        console.error("Erro na requisição POST:", error);
+        alert("Erro crítico: Não foi possível conectar ao servidor backend. Certifique-se de que a API C# está rodando.");
     }
 }

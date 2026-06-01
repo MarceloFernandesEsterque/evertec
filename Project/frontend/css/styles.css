@@ -1,0 +1,290 @@
+/* Reset Básico de Elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Barra de Navegação Superior */
+.menu-navegacao {
+    background-color: #1e293b;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu-navegacao a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.menu-navegacao a:hover, .menu-navegacao a.ativo {
+    color: #ffffff;
+    background-color: #334155;
+}
+
+/* Layout Principal */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.cabecalho {
+    margin-bottom: 2rem;
+}
+
+.cabecalho h2 {
+    color: #0f172a;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.cabecalho p {
+    color: #64748b;
+}
+
+/* Caixa de Busca */
+.busca-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.busca-container input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.busca-container input:focus {
+    border-color: #3b82f6;
+}
+
+/* Botões */
+button {
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.btn-primario {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.btn-primario:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-detalhes {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.btn-detalhes:hover {
+    background-color: #eff6ff;
+}
+
+/* Container de Cards de Listagem */
+.lista-pontos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-ponto {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.card-ponto-info h3 {
+    color: #1e293b;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.card-ponto-info p {
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+.status-mensagem {
+    text-align: center;
+    color: #64748b;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px dashed #cbd5e1;
+}
+
+/* Estilo dos Controles de Paginação */
+.paginacao {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.paginacao button {
+    background-color: #ffffff;
+    color: #334155;
+    border: 1px solid #e2e8f0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+.paginacao button:hover:not(:disabled) {
+    background-color: #f1f5f9;
+}
+
+.paginacao button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Estilos Adicionais para a Tela de Cadastro */
+.formulario {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.campo label {
+    font-weight: 600;
+    color: #475569;
+    font-size: 0.95rem;
+}
+
+.campo input, .campo textarea, .campo select {
+    padding: 0.75rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #ffffff;
+    transition: border-color 0.2s;
+}
+
+.campo input:focus, .campo textarea:focus, .campo select:focus {
+    border-color: #2563eb;
+}
+
+.campo textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.linha-dupla {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+
+.btn-salvar {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    padding: 0.85rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-salvar:hover {
+    background-color: #059669;
+}
+
+/* Estilos para o Painel de Detalhes */
+.painel-detalhes {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.detalhe-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 1rem;
+}
+
+.detalhe-item:last-of-type {
+    border-bottom: none;
+}
+
+.detalhe-item label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #94a3b8;
+    font-weight: 700;
+}
+
+.detalhe-item h1 {
+    color: #0f172a;
+    font-size: 1.75rem;
+}
+
+.descricao-texto {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #334155;
+}
+
+.localizacao-texto {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.detalhe-item-data {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    text-align: right;
+}
